@@ -104,7 +104,7 @@ def Generate_Random_Password_With_Integers_Only():
     if user_input == "y" or user_input == "Y":
         os.system('cls')
         #Let's write into a file 
-        #file = open("C:\\Desktop\password.txt",'w')  Trobule in this line. 
+        #file = open("C:\\Desktop\password.txt",'w') # Change this file path value as per as your desire ;) 
         print("Write down the subject for your password like")
         print("Facebook password/Gmail Password/ Yahoo Password etc")
         user_choice = input("Enter your subject for the password: ")
